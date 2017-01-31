@@ -128,7 +128,7 @@
 <template>
     <div v-show="show" :transition="transition">
         <div class="modal" @click.self="clickMask">
-            <div class="modal-dialog" :class="modalClass" v-el:dialog>
+            <div class="modal-dialog" :class="modalClass" ref:dialog>
                 <div class="modal-content">
                     <!--Header-->
                     <div class="modal-header">
