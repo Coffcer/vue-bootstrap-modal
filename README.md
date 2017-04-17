@@ -31,7 +31,7 @@ simple options:
 
 ```
 
-#Props
+# Props
 ``` javascript
 props: {
     show: {
